@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
         
 
         transform.position = new Vector2(
-            Mathf.Clamp(transform.position.x, -16f, 70f),
+            Mathf.Clamp(transform.position.x, -15f, 70f),
             Mathf.Clamp(transform.position.y, -4.5f, 4.5f)); ;
         
             horizontal = Input.GetAxisRaw("Horizontal");
