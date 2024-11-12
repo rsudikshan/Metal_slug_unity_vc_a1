@@ -1,0 +1,13 @@
+# Ignore Unity-specific directories
+[Ll]ibrary/
+noice/
+obj/
+
+# Other Unity-specific ignores (if not already added)
+[Tt]emp/
+[Bb]in/
+[Ll]ogs/
+
+# Additional general ignores (if applicable)
+*.user
+*.userprefs
